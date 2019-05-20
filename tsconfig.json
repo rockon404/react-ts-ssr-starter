@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "lib": ["dom", "es2017"],
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "paths": {
+      "img/*": ["src/assets/images/*"]
+    }
+  }
+}
